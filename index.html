@@ -142,10 +142,7 @@
     </div>
   </section>
   <section class="company-video">
-    <image
-      src="./images/video.jpg"
-      class="video-image"
-    ></image>
+    <iframe width="1200" height="630" src="https://www.youtube.com/embed/0jzXHtvStN4?si=XDsmMNcW3Wj2cHAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
   <section class="careers" id="spec">
     <div class="careers-block">
@@ -221,11 +218,19 @@
 
 </main>
 <section class="first-photo" id="pac">
-  <img
-    class="first-photo-image"
-    src="./images/firstPhoto.jpg"
-    loading="lazy"
-  /></im>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="./images/slider/slide0.JPG" alt="Изображение 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images/slider/slide1.JPG" alt="Изображение 2">
+      </div>
+      <div class="carousel-slide">
+        <img class="carousel-img" src="./images/slider/slide2.JPG" alt="Изображение 3">
+      </div>
+    </div>
+  </div>
 </section>
 <section class="types container" id="product">
   <div class="type">
@@ -324,5 +329,6 @@
   </div>
 
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
